@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 
@@ -116,14 +116,14 @@ html[data-scroll-y="0"] .intro-page header>.header-icons>.fas>span {
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
 .intro-page header>.header-icons>.log-in>a {
     display: none;
     text-decoration: none;
-    color: black;
+    /* color: black; */
 
 }
 
