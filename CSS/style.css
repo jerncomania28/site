@@ -89,7 +89,6 @@ html[data-scroll-y="0"] .intro-page header>.header-icons>.fas>span {
     top: 0;
     left: 45px;
 
-
 }
 
 .intro-page header .logo ul li {
@@ -120,6 +119,8 @@ html[data-scroll-y="0"] .intro-page header>.header-icons>.fas>span {
 
 }
 
+
+
 .intro-page header>.header-icons>.log-in>a {
     display: none;
     text-decoration: none;
@@ -143,6 +144,21 @@ html[data-scroll-y="0"] .intro-page header>.header-icons>.fas>span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: all 0.2s ease;
+}
+
+.intro-page header>.header-icons>.menu-bar>.menu-bar_burger.open{
+    transform: rotate(360deg);
+    background: transparent;
+}
+
+.intro-page header>.header-icons>.menu-bar>.menu-bar_burger.open::before{
+    transform: rotate(45deg) translate(-5px, 14px);
+    background: white;
+}
+.intro-page header>.header-icons>.menu-bar>.menu-bar_burger.open::after{
+    transform: rotate(-45deg) translate(-5px,-14px);
+    background: white;
 }
 
 
