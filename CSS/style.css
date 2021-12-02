@@ -538,8 +538,18 @@ img {
     align-items: center;
     flex-wrap: wrap;
     width: 100vw;
+    /* padding: 1rem; */
     /* margin: 25px auto; */
     background: black;
+}
+.sub-footer .container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
 .sub-footer ul li {
@@ -549,8 +559,15 @@ img {
 
 .sub-footer ul li>a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
     color: white;
+}
+.sub-footer ul li>a:hover{
+    color: blue;
+}
+
+.sub-footer p{
+    color: #ddd;
 }
 
 footer {
