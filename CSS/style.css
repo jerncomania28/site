@@ -7,6 +7,7 @@ html {
 
 body {
     overflow-x: scroll;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -534,9 +535,9 @@ img {
 
 .sub-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100vw;
     /* padding: 1rem; */
     /* margin: 25px auto; */
@@ -567,7 +568,7 @@ img {
 }
 
 .sub-footer p{
-    color: #ddd;
+    color: #eee;
 }
 
 footer {
